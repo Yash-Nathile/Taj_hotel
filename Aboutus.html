@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Taj</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+
+        /* Style for the first section */
+        .container {
+            text-align: center;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+
+        .title {
+            font-size: 2.5em;
+            letter-spacing: 2px;
+            margin: 0;
+            line-height: 1.2;
+            font-weight: normal;
+        }
+
+        .divider {
+            width: 50px;
+            height: 2px;
+            background-color: #000;
+            margin: 20px auto;
+        }
+
+        .description {
+            font-size: 1.1em;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        /* Style for the second section */
+        .vision-section {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1000px;
+            margin: 60px auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0px 4px 12px rgba(14, 14, 14, 0.1);
+            border-radius: 10px;
+        }
+
+        .vision-text {
+            flex: 1;
+            padding-right: 20px;
+        }
+
+        .vision-title {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        .vision-description {
+            font-size: 1.1em;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        .vision-image {
+            flex: 1;
+        }
+
+        .vision-image img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        /* For mobile responsiveness */
+        @media (max-width: 768px) {
+            .vision-section {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .vision-text {
+                padding-right: 0;
+                margin-bottom: 20px;
+            }
+        }
+
+        .Tajness-section{
+            text-align: center;
+            padding: 20px;
+        }
+        .video-container {
+            display: inline-block;
+            background-image: url(Photo6.jpg);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        video {
+            width: 75%;
+            border-radius: 10px;
+        }
+        .header-section{
+            background-image: url(Photo4.webp);
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .title{
+            color: black;
+        }
+        h1{
+            color: white;
+            font-weight:250;
+        }
+        .search-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  padding: 10px;
+  background-color: white;
+  width: 450px; /* Adjust the width as per your design */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.search-input {
+  flex-grow: 1;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  padding-left: 10px;
+  color: #333;
+}
+
+.mic-icon {
+  font-size: 20px;
+  color: gray;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.search-input::placeholder {
+  color: #999;
+}
+
+.search-container:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+footer {
+    background-color: #111;
+    color: #fff;
+    padding: 50px 20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-container > div {
+    flex: 1;
+    margin: 10px;
+}
+
+h4 {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+input[type="email"] {
+    padding: 10px;
+    margin-right: 10px;
+    border: none;
+    width: 60%;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.contact-info a, .quick-links a, .social-media a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    margin: 5px 0;
+}
+
+.contact-info p, .contact-info a {
+    font-size: 14px;
+}
+
+.brands {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+.brands p {
+    font-size: 16px;
+}
+    </style>
+</head>
+<body>
+
+    <div class="header-section">
+        <h1>ABOUT US</h1>
+        <!-- <button type="search" class="search-button">Search</button> -->
+        <div class="search-container">
+            <input type="text" placeholder="Click here to search for Destinations or Hotels" class="search-input">
+            <div class="mic-icon">&#x1F3A4;</div>
+          </div>          
+    </div>
+
+    <!-- First Section -->
+    <div class="container">
+        <h1 class="title">THE UNPARALLELED GUARDIAN OF GRANDEUR</h1>
+        <div class="divider"></div>
+        <p class="description">
+            Built on a vision of grandeur, Taj Hotels conjures a panoply of superlative experiences that are envisioned to indulge and forge unforgettable memories.
+        </p>
+    </div>
+
+    <!-- Second Section: Vision and Image -->
+    <div class="vision-section">
+        <div class="vision-text">
+            <h2 class="vision-title">A MONUMENTAL VISION</h2>
+            <p class="vision-description">
+                In December 1903, a visionary realised his dream. Mr Jamsetji Nusserwanji Tata – patriot, philanthropist, entrepreneur – opened the doors of what would become one of the world’s greatest hotels.
+            </p>
+        </div>
+        <div class="vision-image">
+            <img src="Photo3.png" alt="Jamsetji Tata">
+        </div>
+    </div>
+
+    <div class="Tajness-section">
+    <h2 class="vision-title">A FEELING CALLED 'TAJNESS'</h1>
+    <p>Crafting individual experiences is an artform at Taj. Regal, memorable, tailored to your every whim – and meant to be savoured forever. Experience the warmth, intuition and sensitivity that imbue every moment at Taj Hotels.</p>
+    <br><br>
+    <div class="video-container">
+        <video controls>
+            <source src="1TajVidio.mp4" type="video/mp4">
+        </video>
+    </div>
+    <br><br>
+
+    <footer>
+        <div class="footer-container">
+            <div class="subscribe">
+                <h4>Subscribe for Latest Updates</h4>
+                <input type="email" placeholder="Enter your email Address">
+                <button>Subscribe</button>
+            </div>
+
+            <div class="contact-info">
+                <h4>For Bookings Contact</h4>
+                <p>1-800-111-825</p>
+                <a href="mailto:reservations@ihcltata.com">reservations@ihcltata.com</a>
+
+                <h4>Customer Support</h4>
+                <a href="mailto:contacttaj@tajhotels.com">contacttaj@tajhotels.com</a>
+                <a href="mailto:website.feedback@tajhotels.com">website.feedback@tajhotels.com</a>
+            </div>
+
+            <div class="quick-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#">Hotels</a></li>
+                    <li><a href="#">Dining</a></li>
+                    <li><a href="#">Wellness</a></li>
+                    <li><a href="#">Timeless Weddings</a></li>
+                    <li><a href="#">Event Venues</a></li>
+                    <li><a href="#">Taj Magazine</a></li>
+                    <li><a href="#">Sitemap</a></li>
+                </ul>
+            </div>
+
+            <div class="social-media">
+                <h4>Connect with Us</h4>
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">Instagram</a>
+                <a href="#">LinkedIn</a>
+            </div>
+        </div>
+
+        <div class="brands">
+            <h4>Our Brands</h4>
+            <p>Taj, Vivanta, SeleQtions, Gateway, Ginger, ama, Qmin</p>
+        </div>
+    </footer>
+    
+</body>
+</html>
